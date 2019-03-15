@@ -22,42 +22,42 @@ public class Message {
 
         @NotNull
         @Size(min = 3)
-        private Date postddate;
+        private String postddate;
 
         @NotNull
         @Size(min = 10)
         private String sentby;
 
 
-        public long getId() {
-            return id;
-        }
+    public long getId() {
+        return id;
+    }
 
-        public void setId(long id) {
-            this.id = id;
-        }
+    public void setId(long id) {
+        this.id = id;
+    }
 
-        public String getContent() {
-            return content;
-        }
+    public String getContent() {
+        return content;
+    }
 
-        public void setContent(String content) {
-            this.content = content;
-        }
+    public void setContent(String content) {
+        this.content = content;
+    }
 
-        public Date getPostddate() {
-            return postddate;
-        }
+    public String getPostddate() {
+        return postddate;
+    }
 
-        public void setPostddate(Date postddate) {
-            this.postddate = postddate;
-        }
+    public void setPostddate(String postddate) {
+        this.postddate = postddate;
+    }
 
-        public String getSentby() {
-            return sentby;
-        }
+    public String getSentby() {
+        return sentby;
+    }
 
-        public void setSentby(String sentby) {
-            this.sentby = sentby;
-        }
+    public void setSentby(String sentby) {
+        this.sentby = sentby;
+    }
 }
